@@ -4,6 +4,7 @@ function setBoxColor(color) {
 }
 
 // Apply text input color
+
 document.getElementById('apply-btn').addEventListener('click', function () {
   var color = document.getElementById('color-input').value;
   setBoxColor(color);
@@ -19,7 +20,3 @@ document.getElementById('random-btn').addEventListener('click', function () {
   var color = randomHex();
   setBoxColor(color);
 });
-
-// Branch 2
-
-// Branch 3
